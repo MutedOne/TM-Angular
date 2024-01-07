@@ -1,0 +1,63 @@
+ <div class=" m-0 d-none d-md-block "  style="width:100vw" >
+            <div class="row p-0 m-0">
+            <div class="col-6 bg-info overflow-hidden p-0 vh-100" style="background-image: url('/task-management.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0.4);" >
+              
+            
+              </div>
+              <div class="col-6 p-0">
+            
+            <div class="d-flex justify-content-center align-items-center vh-100 flex-column bg-light" >
+            <div class="text-center mb-4">
+                <img src="/Bootstrap_logo.png" class="rounded" alt="..." style="width:120px"/>
+            </div>
+                <form class="forml" id="loginus" onSubmit={Checkdetails}>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" required aria-describedby="emailHelp" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" required />
+                        <div id="emailHelp" class="form-text text-center">Account will be given by Admin only</div>
+                    </div>
+                 
+                </form>
+              
+                <button type="submit" class="btn btn-primary px-5" form="loginus" >Login</button>
+          
+              
+            </div>
+            </div>
+            </div>
+          
+           
+        </div>
+        <div class=" m-0 d-none d-sm-block d-md-none " >
+            <div class=" bg-info overflow-hidden p-0" style="background-image: url('/task-management.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0.4);" >
+              
+               <div style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);" >
+                <div class="d-flex justify-content-center align-items-center vh-100 flex-column " >
+                  
+                        <form class="forml bg-light p-4 rounded">
+                            <div class="text-center mb-4">
+                                <img src="/Bootstrap_logo.png" class="rounded imglogo" alt="..." />
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" />
+                                <div id="emailHelp" class="form-text text-center">Account will be given by Admin only</div>
+                            </div>
+                        
+                            <button type="submit" class="btn btn-primary text-center " onClick={Checkdetails}>Login</button>
+                        
+                        </form>
+
+                    </div>
+               </div>
+            </div>
+        
+        </div>
